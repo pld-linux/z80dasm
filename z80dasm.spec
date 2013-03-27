@@ -20,8 +20,8 @@ ZX80, ZX81, Spectrum, Galaksija and others).
 Generated assembly code can be assembled back with any of the
 following:
 
-zasm - Z80 assembler by z80asm - Available at
-http://savannah.nongnu.org/projects/z80asm/
+zasm - Z80 assembler by Günter Woigk
+z80asm - Available at http://savannah.nongnu.org/projects/z80asm/
 
 or the original Zilog Z80 assembler.
 
@@ -40,8 +40,8 @@ ZX81, ZX Spectrum, Galaksija i inne).
 Wygenerowany kod asemblerowy może być z powrotem zasemblowany przy
 użyciu jednego z:
 
-zasm - asembler Z80 napisany przez Güntera Woigka z80asm -
-udostępniony na http://savannah.nongnu.org/projects/z80asm/
+zasm - asembler Z80 napisany przez Güntera Woigka
+z80asm - udostępniony na http://savannah.nongnu.org/projects/z80asm/
 
 lub oryginalnego asemblera Z80 Ziloga.
 
