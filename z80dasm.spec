@@ -45,7 +45,7 @@ z80asm - udostępniony na http://savannah.nongnu.org/projects/z80asm/
 
 lub oryginalnego asemblera Z80 Ziloga.
 
-z80dasm bazuje w dużej mierze na dz80 3.0, napisanego przrz Jana
+z80dasm bazuje w dużej mierze na dz80 3.0, napisanego przez Jana
 Panteltje (kod dostępny pod adresem
 http://panteltje.com/panteltje/z80/index.html). z80dasm był dobrze
 przetestowany, wiele błędów zostało naprawionych i dodany został
