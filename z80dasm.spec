@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Disasembler Z80
 Name:		z80dasm
 Version:	1.1.3
 Release:	1
-License:	GPL v2
+License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://www.tablix.org/~avian/z80dasm/%{name}-%{version}.tar.gz
 # Source0-md5:	66931f5e94c6722fe381d0b57d7177dd
@@ -38,19 +38,19 @@ lat 80-tych XX wieku używających tej architektury procesora (np. ZX80,
 ZX81, ZX Spectrum, Galaksija i inne).
 
 Wygenerowany kod asemblerowy może być z powrotem zasemblowany przy
-użyciu jednego z:
+użyciu jednego z następujących programów:
 
 zasm - asembler Z80 napisany przez Güntera Woigka
 z80asm - udostępniony na http://savannah.nongnu.org/projects/z80asm/
 
 lub oryginalnego asemblera Z80 Ziloga.
 
-z80dasm bazuje w dużej mierze na dz80 3.0, napisanego przez Jana
+z80dasm bazuje w dużej mierze na dz80 3.0, napisanym przez Jana
 Panteltje (kod dostępny pod adresem
 http://panteltje.com/panteltje/z80/index.html). z80dasm był dobrze
 przetestowany, wiele błędów zostało naprawionych i dodany został
-interfejs linii poleceń w stylu Uniksa. Zobacz streszczenie zmian
-w pliku NEWS.
+interfejs linii poleceń w stylu uniksowym. Streszczenie zmian można
+znaleźć w pliku NEWS.
 
 %prep
 %setup -q
