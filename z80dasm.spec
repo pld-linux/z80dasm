@@ -1,13 +1,14 @@
 Summary:	Z80 disassembler
 Summary(pl.UTF-8):	Disasembler Z80
 Name:		z80dasm
-Version:	1.1.3
+Version:	1.1.5
 Release:	1
 License:	GPL v2+
 Group:		Development/Tools
-Source0:	http://www.tablix.org/~avian/z80dasm/%{name}-%{version}.tar.gz
-# Source0-md5:	66931f5e94c6722fe381d0b57d7177dd
-URL:		http://www.tablix.org/~avian/blog/articles/z80dasm/
+Source0:	https://www.tablix.org/~avian/z80dasm/%{name}-%{version}.tar.gz
+# Source0-md5:	a4f2cd7ec99dfda66a80f2e72b3041ae
+Patch0:		%{name}-format.patch
+URL:		https://www.tablix.org/~avian/blog/articles/z80dasm/
 BuildRequires:	rpmbuild(macros) >= 1.213
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -54,6 +55,7 @@ znaleźć w pliku NEWS.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure

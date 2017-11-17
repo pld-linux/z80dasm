@@ -1,0 +1,19 @@
+--- z80dasm-1.1.5/src/dz80.c.orig	2017-11-17 19:39:20.112701028 +0100
++++ z80dasm-1.1.5/src/dz80.c	2017-11-17 19:39:22.762700995 +0100
+@@ -296,14 +296,14 @@
+ 	}
+ 
+ 	if(stro[0] == 0) {
+-		FP(fx,rstr);
++		FP(fx,"%s",rstr);
+ 		return(2);
+ 	} else {
+ 		r=ckrange(2,bstr);
+ 		if(r==-1) {
+ 			return defb(-1);
+ 		} else {
+-			FP(fx,rstr);
++			FP(fx,"%s",rstr);
+ 			FP(fx,stro,bstr);
+ 		}
+ 		return(4);
